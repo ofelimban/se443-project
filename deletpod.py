@@ -1,6 +1,6 @@
 from kubernetes import client, config
 from kubernetes.client.rest import ApiException
-config.load_kube_config() # or config.load_kube_config()
+config.load_kube_config() 
 
 configuration = client.Configuration()
 api_instance = client.CoreV1Api()
